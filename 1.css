@@ -1,0 +1,173 @@
+
+  body {
+    font-family: 'Lato', sans-serif;
+    
+    background: url(3a3d46.png) no-repeat center/cover;
+    
+    
+  }
+ 
+  .form {
+     
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);            
+    width: clamp(250px, 40vw, 340px);
+    height: clamp(280px, 38vw, 330px);
+    z-index: 1;
+    margin: 50px auto;
+    padding: 16px;
+    border-radius: 10px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+
+   
+    
+    
+   
+  }
+  .form::before {
+    content: "";
+    position: absolute;
+    inset:0;
+    background: url("3a3d46.png") center / cover no-repeat;
+    filter: blur(100px);
+    z-index: -1;
+ } 
+   .square {
+    position: fixed;
+    width: 100px;              
+    height: 100px;             
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);               
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    z-index: -1;      
+ }
+ 
+ .square::before {
+    content: "";
+    position: absolute;
+    inset:0;
+    background: url("3a3d46.png") center / cover no-repeat;
+    filter: blur(100px);
+    z-index: -1;
+ } 
+ 
+ .sq1{
+  
+    top: 30%;
+    left: 20%;
+ }
+ .sq2 {
+   
+    top: 50%;
+    left: 40%;
+  }
+  .sq3 {
+   
+    top: 10%;
+    left: 60%;
+  }
+  .sq4 {
+   
+    top: 1%;
+    left: 30%;
+  }
+  input[type="password"],
+
+  input[type="email"],
+  
+  
+  select {
+    
+    background: #ffffff;
+    border: 1px solid #e5e5e4;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 8px 18px;
+    height: 48px;
+    width: 100%;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.01) inset;
+    margin-bottom: 16px;
+    transition: all .2s ease;
+    
+  }
+  
+  input::placeholder {
+    color: #999;
+  }
+ 
+  label{
+    
+    color: #fdfdfd;
+    display: block;
+  }
+  .label1
+  {
+    color:#8a97a0;
+    text-decoration: none;
+  }
+
+  h2{
+    padding: 1px 10px 2px;
+    color: #fdfdfd;
+  }
+  
+  .c-button {
+    
+    max-width: 80px; 
+    border-color: rgb(59, 49, 49) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px 10px 2px;
+    text-rendering: auto;
+    color: initial;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 100 20px system-ui;
+    
+}
+  button {
+    
+    
+    
+    color: #FFF;
+  
+   
+    
+    text-align: center;
+    width: 100%;
+  }
+
+  
+  
+  
+
+  @media (max-width: 768px) {
+    label {
+        font-size: 12px; 
+      }
+    .label1 {
+      font-size: 12px; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .label1 {
+      font-size: 8px; 
+    }
+    label {
+        font-size: 8px; 
+      }
+  }
+  
+  
+ 
+  
+ 
+  
+ 
